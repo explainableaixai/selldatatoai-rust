@@ -1,0 +1,17 @@
+target/
+_build/
+deps/
+doc/
+bin/
+obj/
+.dart_tool/
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+pubspec.lock
+Cargo.lock
+mix.lock
+.packages
