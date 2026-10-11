@@ -1,4 +1,4 @@
-//! Blocking Rust client for the Data Asset Score API at
+//! Blocking Rust client for the AI Data Value Score API at
 //! <https://www.selldatatoai.com/api/>.
 //!
 //! ```no_run

@@ -1,6 +1,6 @@
 # selldatatoai (Rust)
 
-A blocking Rust client for the Data Asset Score API published by [Sell Data to AI (selldatatoai.com)](https://www.selldatatoai.com/). It turns a company domain into a typed `Score`: a value from 0 to 100, a grade from A to E, the company status, its web history and the systems of record it runs.
+A blocking Rust client for the AI Data Value Score API published by [Sell Data to AI (selldatatoai.com)](https://www.selldatatoai.com/). It turns a company domain into a typed `Score`: a value from 0 to 100, a grade from A to E, the company status, its web history and the systems of record it runs.
 
 ```toml
 [dependencies]
@@ -13,7 +13,7 @@ The crate depends on `ureq`, `serde` and `serde_json` only. No async runtime is 
 
 | | |
 |---|---|
-| Index behind the API | 102 million domains, 99.99% of the active internet, with history |
+| Index behind the API | 120 million domains, 99.99% of the active internet, with history |
 | Single lookup | `client.score("example.com")` |
 | Batch | up to 100 domains per call, results in input order |
 | Auth | `X-API-Key` header, set by the client |
@@ -260,7 +260,7 @@ Compare the tiers on the [subscription plans](https://www.selldatatoai.com/prici
 
 ### What is the selldatatoai crate?
 
-The selldatatoai crate is a Rust client for the Data Asset Score API at selldatatoai.com. It scores company domains from 0 to 100 for the data AI buyers want and returns typed results with grade, status, data systems and history.
+The selldatatoai crate is a Rust client for the AI Data Value Score API at selldatatoai.com. It scores company domains from 0 to 100 for the data AI buyers want and returns typed results with grade, status, data systems and history.
 
 ### Why blocking and not async?
 
